@@ -36,7 +36,8 @@
 ---
 
 # 附录
-- [术语](appendix/terms.md)
 - [数学基础](appendix/math.md)
+- [PyTorch：深度学习框架](appendix/pytorch.md)
+- [术语](appendix/terms.md)
 - [AI应用](appendix/app.md)
 - [链接](appendix/links.md)
