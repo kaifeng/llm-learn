@@ -21,6 +21,15 @@
     -   **逆 (Inverse)**：矩阵的逆用于求解线性方程组。
 -   **应用**：数据表示、特征工程、主成分分析（PCA）、神经网络的层运算、损失函数计算。
 
+### The Art of Linear Algebra
+
+这份名为《线性代数的艺术》的笔记，是日本学者 Kenji Hiranabe 基于 MIT 教授 Gilbert Strang 的著作《每个人的线性代数》制作的。它将原著浓缩成仅 12 页的图解笔记，内容涵盖了从理解矩阵的四个视角、基本运算（如向量与矩阵乘法）、实用技巧到矩阵的五种分解方式。这份笔记因其精炼和可视化，获得了 Gilbert Strang 本人的高度肯定，并被收录进原书介绍页面的推荐链接中。
+
+项目地址：https://github.com/kenjihiranabe/The-Art-of-Linear-Algebra
+
+参考链接：https://news.mit.edu/2023/gilbert-strang-made-linear-algebra-fun-0531
+
+
 ## 2. 微积分 (Calculus)
 
 微积分是优化机器学习模型（尤其是深度学习模型）的关键工具，它告诉我们如何调整模型参数以最小化误差。
