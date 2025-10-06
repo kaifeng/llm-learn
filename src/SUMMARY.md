@@ -18,6 +18,7 @@
 - [Transformer 架构](part3_transformer/transformer_architecture.md)
 
 # 第四部分：预训练语言模型
+- [架构分野](part4_pretraining/architectural_divergence.md)
 - [BERT 模型](part4_pretraining/bert.md)
 - [GPT 模型](part4_pretraining/gpt.md)
 - [预训练与微调](part4_pretraining/pretrain_finetune.md)
@@ -26,6 +27,7 @@
 - [指令微调与 RLHF](part5_modern_llms/instruction_tuning_rlhf.md)
 - [提示工程 (Prompt Engineering)](part5_modern_llms/prompt_engineering.md)
 - [检索增强生成 (RAG)](part5_modern_llms/rag.md)
+- [混合专家模型 (MoE)](part5_modern_llms/moe.md)
 
 ---
 
