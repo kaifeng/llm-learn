@@ -33,6 +33,8 @@
 
 ---
 
-- [附录]()
-  - [术语](./appendix/terms.md)
-  - [相关链接](./appendix/links.md)
+# 附录
+- [术语](appendix/terms.md)
+- [数学基础](appendix/math.md)
+- [AI应用](appendix/app.md)
+- [链接](appendix/links.md)
