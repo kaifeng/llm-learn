@@ -14,3 +14,10 @@
 
 **ChatGPT(Generative Pre-trained Transformer)**
 由 OpenAI 开发的著名对话式 AI 模型。它本身属于“生成式”、“预训练”、“Transformer”模型，其核心架构是“仅解码器（Decoder-only）”，因此它的生成方式是“自回归（AR）”的。ChatGPT 的革命性之处不仅在于其巨大的模型规模，更在于它通过“指令微调”和“基于人类反馈的强化学习（RLHF）”等对齐技术，使其能更好地理解人类意图并进行流畅、有帮助的对话。同类：Google Bard, Anthropic Claude
+
+**Semi-Supervised Learning (SSL)** 半监督学习
+一种机器学习范式，它结合了少量**有标签数据**和大量**无标签数据**进行训练。当获取大量标注数据成本高昂时，半监督学习能够利用易于获取的无标签数据来提升模型的性能和泛化能力。常见的技术包括自训练（Self-training）、协同训练（Co-training）和一致性正则化（Consistency Regularization）等。
+
+**Transformer**
+一种著名的深度学习模型，它最初是作为机器翻译的序列到序列模型提出的。后来，基于Transformer的预训练模型在各种自然语言处理任务上实现了最优性能，因此Transformer已经成为NLP中的主流架构。
+Transformer模型主要包括两部分：Encoder和Decoder。其中，Encoder负责编码输入序列，而Decoder负责生成输出序列。在编码过程中，每个词首先被转换为向量表示，然后通过多层的Encoder逐步传递信息，形成编码后的表示向量。在解码过程中，Decoder通过将编码后的表示向量与目标序列逐词匹配，生成输出序列。Transformer的核心技术是self-attention，它通过计算输入序列中不同位置之间的相关性，得到每个单词的权重，从而更好地捕捉输入序列中的重要信息。

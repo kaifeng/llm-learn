@@ -20,9 +20,11 @@
 - [Transformer 架构](part3_transformer/transformer_architecture.md)
 
 # 第四部分：预训练语言模型
+- [大语言模型领域细分概览](part4_pretraining/llm_ecosystem_overview.md)
 - [架构分野](part4_pretraining/architectural_divergence.md)
 - [BERT 模型](part4_pretraining/bert.md)
 - [GPT 模型](part4_pretraining/gpt.md)
+- [其他主流 LLM 模型家族](part4_pretraining/other_llm_families.md)
 - [预训练与微调](part4_pretraining/pretrain_finetune.md)
 
 # 第五部分：现代大语言模型
