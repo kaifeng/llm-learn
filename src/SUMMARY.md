@@ -32,4 +32,6 @@
 
 ---
 
-- [参考文献](references.md)
+- [附录]()
+  - [术语](./appendix/terms.md)
+  - [相关链接](./appendix/links.md)
