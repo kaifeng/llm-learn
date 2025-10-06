@@ -3,6 +3,7 @@
 - [前言](introduction.md)
 
 # 第一部分：机器学习与深度学习基础
+- [机器学习的核心范式](part1_foundations/learning_paradigms.md)
 - [神经网络基础](part1_foundations/neural_networks.md)
 - [卷积神经网络 (CNN)](part1_foundations/cnn.md)
 - [激活函数](part1_foundations/activation_functions.md)
