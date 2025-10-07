@@ -8,6 +8,14 @@ HuggingFace的LLM教程 https://huggingface.co/learn/llm-course
 
 从头构建llama3模型 https://github.com/naklecha/llama3-from-scratch
 
+Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.
+https://github.com/mlabonne/llm-course
+
+numpy手写ml模型，来自普林斯顿的一位博士后将NumPy实现的所有机器学习模型全部开源，并提供了相应的论文和一些实现的测试效果。
+https://github.com/ddbourgin/numpy-ml
+
+大模型相关技术原理以及实战经验 https://github.com/liguodongiot/llm-action
+
 ## 论文
 
 - **Self-Supervised Speech Representation Learning: A Review**
