@@ -9,7 +9,7 @@
 - [激活函数](part1_foundations/activation_functions.md)
 - [损失函数与优化器](part1_foundations/loss_and_optimizers.md)
 - [反向传播与梯度计算](part1_foundations/backpropagation.md)
-- [正则化与归一化](part1_foundations/normalization_and_regularization.md)
+- [过拟合、欠拟合与正则化](part1_foundations/normalization_and_regularization.md)
 
 # 第二部分：自然语言处理 (NLP) 基础
 - [文本表示与词嵌入](part2_nlp_basics/embeddings.md)

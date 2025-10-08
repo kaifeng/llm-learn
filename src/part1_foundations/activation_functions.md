@@ -6,7 +6,7 @@
 
 ## Sigmoid 函数
 
-Sigmoid 函数是最早被使用的激活函数之一。它将任意实数输入压缩到 (0, 1) 的范围内，使其看起来像一个 “S” 型曲线。
+Sigmoid 函数是最早被使用的激活函数之一。它将任意实数输入压缩到 (0, 1) 的范围内，使其看起来像一个S型曲线。
 
 $$ f(x) = \frac{1}{1 + e^{-x}} $$
 
@@ -40,7 +40,7 @@ $$ f(x) = \max(0, x) $$
 
 ### Leaky ReLU
 
-Leaky ReLU 是对 ReLU 的一个改进，旨在解决“Dying ReLU”问题。它允许在输入为负时，也有一个小的、非零的梯度。
+Leaky ReLU 是对 ReLU 的一个改进，旨在解决Dying ReLU问题。它允许在输入为负时，也有一个小的、非零的梯度。
 
 $$ f(x) = \begin{cases} x & \text{if } x > 0 \\ \alpha x & \text{if } x \le 0 \end{cases} $$
 
