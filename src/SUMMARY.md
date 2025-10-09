@@ -17,7 +17,8 @@
 
 # 第三部分：Transformer 与注意力机制
 - [Transformer 架构](part3_transformer/transformer_architecture.md)
-- [注意力机制详解](part3_transformer/attention.md)
+    - [词嵌入与位置编码](part3_transformer/embeddings_and_pos_encoding.md)
+    - [多头自注意力机制](part3_transformer/multi_head_attention.md)
 
 # 第四部分：预训练语言模型
 - [大语言模型领域细分概览](part4_pretraining/llm_ecosystem_overview.md)
