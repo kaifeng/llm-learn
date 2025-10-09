@@ -1,6 +1,6 @@
 # AI Agent 开发方法论：从 Vibe Coding 到 Spec-Driven
 
-随着大型语言模型（LLM）能力的增强，AI Agent（人工智能代理）已成为一个激动人心的前沿领域。这些 Agent 能够自主或半自主地执行复杂任务，例如软件开发、数据分析和自动化测试。在 Agent 的开发实践中，逐渐形成了两种截然不同的方法论：Vibe Coding 和 Spec-Driven Development。
+随着大型语言模型（LLM）能力的增强，AI Agent已成为一个前沿领域。这些 Agent 能够自主或半自主地执行复杂任务，例如软件开发、数据分析和自动化测试。在 Agent 的开发实践中，逐渐形成了两种截然不同的方法论：Vibe Coding 和 Spec-Driven Development。
 
 ## Vibe Coding (氛围驱动编程)
 
