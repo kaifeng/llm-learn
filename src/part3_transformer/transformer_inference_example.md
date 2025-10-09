@@ -48,38 +48,39 @@
 
 每个输入向量 $X$ 都会通过三个不同的线性变换（乘以权重矩阵 $W_Q, W_K, W_V$）来生成对应的 Query (Q)、Key (K) 和 Value (V) 向量。
 
--   **Query 矩阵 $W_Q$** = $$
+-   Query 矩阵
 
-<pre><code>
+$$
+W_Q =
 \begin{bmatrix}
 0.1 & 0.2 & 0.3 & 0.4 \\
 0.5 & 0.6 & 0.7 & 0.8 \\
 0.9 & 1.0 & 1.1 & 1.2 \\
 1.3 & 1.4 & 1.5 & 1.6
 \end{bmatrix}
-</code></pre>
+$$
 
--   **Key 矩阵 $W_K$** = $$
-
-<pre><code>
+-   Key 矩阵
+$$
+W_K =
 \begin{bmatrix}
 1.6 & 1.5 & 1.4 & 1.3 \\
 1.2 & 1.1 & 1.0 & 0.9 \\
 0.8 & 0.7 & 0.6 & 0.5 \\
 0.4 & 0.3 & 0.2 & 0.1
 \end{bmatrix}
-</code></pre>
+$$
 
--   **Value 矩阵 $W_V$** = $$
-
-<pre><code>
+-   Value 矩阵
+$$
+W_V =
 \begin{bmatrix}
 0.2 & 0.4 & 0.6 & 0.8 \\
 1.0 & 1.2 & 1.4 & 1.6 \\
 1.8 & 2.0 & 2.2 & 2.4 \\
 2.6 & 2.8 & 3.0 & 3.2
 \end{bmatrix}
-</code></pre>
+$$
 
 **计算 Q, K, V 向量** (以 "The" 为例):
 
@@ -164,7 +165,7 @@ $\text{Output}_{\text{cat}} = 0.0001 \cdot V_{\text{The}} + 0.0009 \cdot V_{\tex
 
 经过前馈网络、残差连接和层归一化后，解码器最终输出一个 logits 向量。该向量通过 Softmax 函数转换为词汇表中每个词的概率。
 
--   $P(\text{next token}) = \text{softmax}(Output_{\text{logits}})$ 
+-   $P(\text{next token}) = \text{softmax}(Output_{\text{logits}})$
 
 假设概率最高的词是 "猫"。模型选择 "猫" 作为第一个输出。
 
