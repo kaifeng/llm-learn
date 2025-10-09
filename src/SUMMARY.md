@@ -15,10 +15,10 @@
 - [文本表示与词嵌入](part2_nlp_basics/embeddings.md)
 - [循环神经网络 (RNN & LSTM)](part2_nlp_basics/rnns.md)
 
-# 第三部分：Transformer 与注意力机制
+# 第三部分：Transformer
 - [Transformer 架构](part3_transformer/transformer_architecture.md)
-    - [词嵌入与位置编码](part3_transformer/embeddings_and_pos_encoding.md)
-    - [多头自注意力机制](part3_transformer/multi_head_attention.md)
+- [词嵌入与位置编码](part3_transformer/embeddings_and_pos_encoding.md)
+- [多头自注意力机制](part3_transformer/multi_head_attention.md)
 
 # 第四部分：预训练语言模型
 - [LLM领域概览](part4_pretraining/llm_ecosystem_overview.md)
