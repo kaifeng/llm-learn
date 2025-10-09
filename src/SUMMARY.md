@@ -16,8 +16,8 @@
 - [循环神经网络 (RNN & LSTM)](part2_nlp_basics/rnns.md)
 
 # 第三部分：Transformer 与注意力机制
-- [注意力机制详解](part3_transformer/attention.md)
 - [Transformer 架构](part3_transformer/transformer_architecture.md)
+- [注意力机制详解](part3_transformer/attention.md)
 
 # 第四部分：预训练语言模型
 - [大语言模型领域细分概览](part4_pretraining/llm_ecosystem_overview.md)
