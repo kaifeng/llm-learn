@@ -6,5 +6,6 @@
 
 ## Rules
 
+- Only emphasize important terms and concepts.
 - Add one space before and after emphasized content.
 - Don't modify existing external image links unless told so.
