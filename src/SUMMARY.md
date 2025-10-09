@@ -3,12 +3,12 @@
 - [前言](introduction.md)
 
 # 第一部分：机器学习与深度学习基础
-- [机器学习的核心范式](part1_foundations/learning_paradigms.md)
 - [神经网络基础](part1_foundations/neural_networks.md)
+  - [反向传播与梯度计算](part1_foundations/backpropagation.md)
 - [卷积神经网络 (CNN)](part1_foundations/cnn.md)
 - [激活函数](part1_foundations/activation_functions.md)
 - [损失函数与优化器](part1_foundations/loss_and_optimizers.md)
-- [反向传播与梯度计算](part1_foundations/backpropagation.md)
+
 - [过拟合、欠拟合与正则化](part1_foundations/normalization_and_regularization.md)
 
 # 第二部分：自然语言处理 (NLP) 基础
@@ -19,6 +19,8 @@
 - [Transformer 架构](part3_transformer/transformer_architecture.md)
 - [词嵌入与位置编码](part3_transformer/embeddings_and_pos_encoding.md)
 - [多头自注意力机制](part3_transformer/multi_head_attention.md)
+- [Transformer 训练过程](part3_transformer/transformer_training_example.md)
+- [Transformer 推理过程](part3_transformer/transformer_inference_example.md)
 
 # 第四部分：预训练语言模型
 - [LLM领域概览](part4_pretraining/llm_ecosystem_overview.md)
