@@ -4,11 +4,6 @@
 
 # 第一部分：机器学习与深度学习基础
 - [神经网络](part1_foundations/neural_networks.md)
-  - [激活函数](part1_foundations/activation_functions.md)
-  - [损失函数与优化器](part1_foundations/loss_and_optimizers.md)
-  - [反向传播与梯度计算](part1_foundations/backpropagation.md)
-  - [数据预处理与归一化](part1_foundations/normalization.md)
-  - [过拟合与正则化](part1_foundations/regularization.md)
 - [卷积神经网络 (CNN)](part1_foundations/cnn.md)
 
 # 第二部分：自然语言处理 (NLP) 基础
