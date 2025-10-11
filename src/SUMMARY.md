@@ -30,6 +30,10 @@
 - [检索增强生成 (RAG)](part5_modern_llms/rag.md)
 - [混合专家模型 (MoE)](part5_modern_llms/moe.md)
 - [AI Agent 开发方法论](part5_modern_llms/ai_agents.md)
+- [LLM 评估](part5_modern_llms/evaluation.md)
+- [模型量化与推理优化](part5_modern_llms/quantization_and_inference.md)
+- [多模态大模型](part5_modern_llms/multimodality.md)
+- [状态空间模型](part5_modern_llms/ssm.md)
 
 ---
 
