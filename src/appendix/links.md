@@ -4,6 +4,8 @@
 
 李沐实用机器学习，课程主页：https://c.d2l.ai/stanford-cs329p/
 
+吴恩达在线课程 https://www.deeplearning.ai/
+
 HuggingFace的LLM教程 https://huggingface.co/learn/llm-course
 
 从头构建llama3模型 https://github.com/naklecha/llama3-from-scratch
