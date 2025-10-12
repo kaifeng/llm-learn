@@ -104,3 +104,16 @@
     -   **AI 绘画工具**: Midjourney, **ComfyUI**。
     -   **本地模型运行工具**: **Ollama**。
     -   **编程助手**: GitHub Copilot。
+
+## 其它辅助框架
+
+### Hugging Face Transformers
+
+在上述技术栈的各层之间，存在一些扮演着“粘合剂”或“通用工具箱”角色的关键项目，其中最核心的代表就是 **Hugging Face `transformers`** 库。
+
+它不完全属于任何单一层次，而是作为一个横跨 L1, L2, L4 的高级工具集存在：
+
+-   **连接 L1 和 L2**：它在 PyTorch、TensorFlow 等底层框架之上，提供了对上千种 Transformer 模型（如 BERT, GPT）的标准实现。开发者无需从零开始构建模型，可以直接使用 `transformers` 库加载 L2 层的预训练模型，并利用其 `Trainer` API 在 L1 框架上进行便捷的微调。
+-   **服务于 L4**：LangChain 等应用框架通常会深度集成 `transformers` 库，通过它来调用和操作模型，以执行应用逻辑中的具体步骤。
+
+可以将其理解为一个标准化的“模型引擎套件”，极大地降低了使用和训练 SOTA 模型的门槛，是事实上的模型生态标准。
