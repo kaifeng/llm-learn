@@ -70,4 +70,3 @@ PyTorch 是一个开源的机器学习框架，由 Facebook AI Research (FAIR) �
 -   **`device = torch.device("cuda" if torch.cuda.is_available() else "cpu")`**：定义设备。
 -   **`.to(device)`**：将 Tensor 或 `nn.Module` 移动到指定设备（CPU 或 GPU）上进行计算。
 
-PyTorch 的设计哲学是“易用性”和“灵活性”，这使得它成为研究人员快速迭代和实验的强大工具。

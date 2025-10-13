@@ -6,6 +6,8 @@
 
 # 第一部分：机器学习与深度学习基础
 - [神经网络](part1_foundations/neural_networks.md)
+  - [欠拟合、过拟合](part1_foundations/underfitting_overfitting.md)
+  - [正则化](part1_foundations/regularization.md)
 - [卷积神经网络 (CNN)](part1_foundations/cnn.md)
 
 # 第二部分：自然语言处理 (NLP) 基础
