@@ -27,8 +27,8 @@
 - [其他主流 LLM 模型家族](part4_pretraining/other_llm_families.md)
 
 # 第五部分：现代大语言模型
+- [提示词工程](part5_modern_llms/prompt_engineering.md)
 - [指令微调与 RLHF](part5_modern_llms/instruction_tuning_rlhf.md)
-- [提示工程 (Prompt Engineering)](part5_modern_llms/prompt_engineering.md)
 - [检索增强生成 (RAG)](part5_modern_llms/rag.md)
 - [混合专家模型 (MoE)](part5_modern_llms/moe.md)
 - [AI Agent 开发方法论](part5_modern_llms/ai_agents.md)
