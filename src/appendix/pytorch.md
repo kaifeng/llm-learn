@@ -38,7 +38,51 @@ PyTorch 是一个开源的机器学习框架，由 Facebook AI Research (FAIR) �
 -   **`torch.nn.Embedding`**：用于创建词嵌入层，将离散的整数索引映射到稠密的向量表示。
 -   **`torch.nn.TransformerEncoderLayer`**, `torch.nn.TransformerDecoderLayer`, `torch.nn.TransformerEncoder`, `torch.nn.TransformerDecoder`, `torch.nn.Transformer`：PyTorch 提供了 Transformer 架构的各种组件，方便用户构建 Transformer 模型。
 
-### 2.3 损失函数 (`torch.nn`)
+### 2.3 构建模型 (`torch.nn`)
+
+-   **`nn.Parameter`**：这是一个特殊的张量（Tensor），当它被赋值为 `nn.Module` 的属性时，它会自动被注册为模型的一个参数。这意味着在训练过程中，PyTorch 的自动求导机制会追踪它的梯度，并且在优化器更新时，它的值会被更新。与普通张量的主要区别是，`nn.Parameter` 默认 `requires_grad=True`。
+
+-   **`nn.Sequential`**：一个有序的模块容器。它按照模块在构造函数中传入的顺序，依次将输入数据传递给每个模块。这是一种快速构建简单线性堆叠网络（如 MLP）的便捷方式。
+    ```python
+    model = nn.Sequential(
+        nn.Linear(784, 128),
+        nn.ReLU(),
+        nn.Linear(128, 10)
+    )
+    ```
+
+### 2.4 访问与管理模型参数
+
+-   **`state_dict`**：一个 Python 字典，它将模型的每一个层映射到其对应的参数张量（权重和偏置）。`state_dict` 是保存和加载模型状态的核心，因为它只包含可训练的参数，不包含模型结构。
+
+-   **`named_parameters()`**：一个返回模型所有参数的迭代器，每次迭代产生一个 `(参数名称, 参数本身)` 的元组。这对于需要按名称检查、修改或选择性地对某些参数进行操作（如只对某些层进行微调）的场景非常有用。
+
+-   **`bias`, `bias.data`, `weight.grad`**：这些是访问层中具体参数和其属性的方式。
+    -   `layer.weight` / `layer.bias`：访问一个层的权重或偏置，它们是 `nn.Parameter` 对象。
+    -   `layer.bias.data`：直接访问参数底层的张量数据，对其的修改不会被 autograd 追踪。常用于权重初始化等场景。
+    -   `layer.weight.grad`：在调用 `loss.backward()` 之后，这个属性会存储计算出的关于该权重的梯度值。
+
+### 2.5 初始化与操作模型权重
+
+-   **`net.apply(fn)`**：这是一个对 `nn.Module` 进行递归操作的方法。它会将函数 `fn` 应用到网络自身的每一个子模块上。最常见的用途是实现自定义的权重初始化策略。
+    ```python
+    def init_weights(m):
+        if isinstance(m, nn.Linear):
+            torch.nn.init.xavier_uniform_(m.weight)
+            m.bias.data.fill_(0.01)
+
+    net = nn.Sequential(nn.Linear(2, 2), nn.Linear(2, 2))
+    net.apply(init_weights)
+    ```
+
+-   **`torch.nn.init`**：这个模块包含了一系列常用的权重初始化函数。函数名以 `_` 结尾的通常表示这是一个**原地（in-place）**操作。
+    -   `nn.init.normal_`：使用正态分布的值填充张量。
+    -   `nn.init.zeros_`：使用 0 填充张量。
+    -   `nn.init.constant_`：使用一个常数值填充张量。
+    -   `nn.init.xavier_uniform_`：使用 Xavier（或称 Glorot）均匀分布初始化张量，适用于 Tanh/Sigmoid 激活函数。
+    -   `nn.init.uniform_`：使用均匀分布的值填充张量。
+
+### 2.6 损失函数 (`torch.nn`)
 
 -   **`torch.nn.MSELoss`**：**均方误差损失 (Mean Squared Error Loss)**，常用于回归问题。计算预测值与真实值之差的平方的平均值。
     ```python
