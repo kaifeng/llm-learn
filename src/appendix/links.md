@@ -4,6 +4,32 @@
 
 李沐实用机器学习，课程主页：https://c.d2l.ai/stanford-cs329p/
 
+李沐动手学深度学习，课程主页：https://courses.d2l.ai/zh-v2
+- 教材：https://zh-v2.d2l.ai
+- 课程论坛讨论：https://discuss.d2l.ai/c/16
+- Pytorch论坛：https://discuss.pytorch.org/
+
+  [可选] 使用 conda/miniconda环境
+  ```
+  conda env remove d2l-zh
+  conda create -y -n d2l-zh python-3.8 pip
+  conda activate d2l-zh
+  ```
+
+  安装需要的包 `pip install -y jupyter d2l torch torchvision`
+
+  下载代码并执行
+  ```
+  wget https://zh-v2.d2l.ai/d2l-zh.zip
+  unzip d2l-zh.zip
+  jupyter notebook
+  ```
+
+  > d2l需要python 3.8，用python3.12有不兼容（numpy安装失败）
+
+  端口映射
+  ssh -L8888:localhost:8888 ubuntu@remote-machine
+
 吴恩达在线课程 https://www.deeplearning.ai/
 
 李宏毅 2016机器学习 https://www.youtube.com/8zomhgKrsmQ
