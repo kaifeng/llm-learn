@@ -53,4 +53,5 @@
 - [AI相关软件框架](appendix/frameworks.md)
   - [PyTorch：深度学习框架](appendix/pytorch.md)
 - [AI应用](appendix/app.md)
+- [论文](appendix/papers.md)
 - [链接](appendix/links.md)
