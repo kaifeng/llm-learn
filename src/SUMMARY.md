@@ -17,7 +17,7 @@
 - [卷积神经网络 (CNN)](part1_foundations/cnn.md)
 
 # 第二部分：自然语言处理 (NLP) 基础
-- [文本表示与词嵌入](part2_nlp_basics/embeddings.md)
+- [词嵌入](part2_nlp_basics/embeddings.md)
 - [循环神经网络 (RNN & LSTM)](part2_nlp_basics/rnns.md)
 
 # 第三部分：Transformer
