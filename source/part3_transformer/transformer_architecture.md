@@ -35,3 +35,13 @@ Transformer 的顶层架构仍然沿用了经典的 **编码器-解码器（Enco
 ## 总结
 
 Transformer 的设计是革命性的。它证明了仅凭注意力机制，就足以构建出性能顶尖的序列处理模型。其高度并行的特性释放了硬件的潜力，直接推动了 NLP 进入以 BERT、GPT 等大规模预训练语言模型为代表的新时代。
+
+---
+
+```{toctree}
+:caption: Transformer 核心组件
+:maxdepth: 1
+
+embeddings_and_pos_encoding.md
+multi_head_attention.md
+```

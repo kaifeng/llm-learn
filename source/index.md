@@ -14,12 +14,6 @@ part0_overview/basic_concepts.md
 
 part1_foundations/neural_networks.md
 part1_foundations/model_training.md
-part1_foundations/data_preprocessing.md
-part1_foundations/loss_functions.md
-part1_foundations/optimizers.md
-part1_foundations/backpropagation.md
-part1_foundations/underfitting_overfitting.md
-part1_foundations/regularization.md
 part1_foundations/model_inference.md
 part1_foundations/cnn.md
 ```
@@ -37,8 +31,6 @@ part2_nlp_basics/rnns.md
 :maxdepth: 2
 
 part3_transformer/transformer_architecture.md
-part3_transformer/embeddings_and_pos_encoding.md
-part3_transformer/multi_head_attention.md
 part3_transformer/transformer_training_example.md
 part3_transformer/transformer_inference_example.md
 ```

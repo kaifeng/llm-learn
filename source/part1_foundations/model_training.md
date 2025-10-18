@@ -33,3 +33,17 @@
 - **Xavier (Glorot) 初始化**：一种经典的初始化方法。它的核心思想是使每一层的激活值的方差和梯度的方差在前向和反向传播中保持一致。这有助于防止梯度信号在网络中传播时变得过大或过小。它通常与 Sigmoid 和 Tanh 等激活函数配合使用效果较好。
 
 - **He 初始化**：这是对 Xavier 初始化的改进，专门为 **ReLU** 及其变体设计。由于 ReLU 会将一半的输入置为零，He 初始化在计算方差时考虑了这一点，从而更适合 ReLU 激活函数，成为现代神经网络中非常常用的初始化方法。
+
+---
+
+```{toctree}
+:caption: 模型训练的步骤
+:maxdepth: 1
+
+data_preprocessing.md
+loss_functions.md
+optimizers.md
+backpropagation.md
+underfitting_overfitting.md
+regularization.md
+```
