@@ -69,6 +69,7 @@ appendix/terms.md
 appendix/math.md
 appendix/frameworks.md
 appendix/pytorch.md
+appendix/matplotlib_example.ipynb
 appendix/app.md
 appendix/papers.md
 appendix/links.md

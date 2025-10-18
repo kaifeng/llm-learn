@@ -45,4 +45,7 @@ html_theme_options = {
     "use_issues_button": True,
     "use_edit_page_button": True,
     "branch": "main",
+    "launch_buttons": {
+        "colab_url": "https://colab.research.google.com/github/kaifeng/llm-learn/blob/main/source"
+    },
 }
