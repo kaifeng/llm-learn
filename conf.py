@@ -17,7 +17,7 @@ author = 'Kai Feng'
 extensions = [
     "myst_parser",
     "sphinx_copybutton",
-    "sphinx_github_pages",
+    "sphinx.ext.githubpages",
 ]
 
 templates_path = ['_templates']
