@@ -80,3 +80,18 @@ $
   $$ \sigma_i = \frac{e^{z_i}}{\sum_{j=1}^{n}e^{z_j}}, \quad i=1,2,...,n $$
 
 Softmax虽然叫回归，实际是一个分类问题。分类和回归的区别：回归估计一个连续值，分类预测一个离散类别（输出的个数是类别的个数）。
+
+---
+
+```{toctree}
+:caption: 模型训练的步骤
+:maxdepth: 1
+
+model_training.md
+data_preprocessing.md
+loss_functions.md
+optimizers.md
+backpropagation.md
+underfitting_overfitting.md
+regularization.md
+```
