@@ -15,7 +15,6 @@ author = 'Kai Feng'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
-    "myst_parser",
     "myst_nb",
     "sphinx_copybutton",
     "sphinx.ext.githubpages",
