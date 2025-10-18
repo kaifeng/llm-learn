@@ -16,6 +16,7 @@ author = 'Kai Feng'
 
 extensions = [
     "myst_parser",
+    "myst_nb",
     "sphinx_copybutton",
     "sphinx.ext.githubpages",
 ]

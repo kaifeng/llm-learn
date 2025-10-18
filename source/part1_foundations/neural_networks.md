@@ -92,6 +92,7 @@ data_preprocessing.md
 loss_functions.md
 optimizers.md
 backpropagation.md
+grad_vanishing_explosion.md
 underfitting_overfitting.md
 regularization.md
 ```
