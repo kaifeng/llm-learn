@@ -13,7 +13,6 @@ part0_overview/basic_concepts.md
 :maxdepth: 2
 
 part1_foundations/neural_networks.md
-part1_foundations/embeddings.md
 part1_foundations/model_training.md
 part1_foundations/model_inference.md
 part1_foundations/cnn.md
@@ -23,6 +22,10 @@ part1_foundations/cnn.md
 :caption: 第二部分：自然语言处理 (NLP) 基础
 :maxdepth: 2
 
+part2_nlp_basics/text_preprocessing.md
+part2_nlp_basics/traditional_text_representation.md
+part2_nlp_basics/basic_nlp_tasks.md
+part2_nlp_basics/embeddings.md
 part2_nlp_basics/rnns.md
 ```
 
