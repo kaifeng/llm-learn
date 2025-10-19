@@ -9,13 +9,12 @@ part0_overview/basic_concepts.md
 ```
 
 ```{toctree}
-:caption: 第一部分：机器学习与深度学习基础
+:caption: 第一部分：神经网络基础概念
 :maxdepth: 2
 
 part1_foundations/neural_networks.md
 part1_foundations/model_training.md
 part1_foundations/model_inference.md
-part1_foundations/cnn.md
 ```
 
 ```{toctree}
@@ -30,38 +29,46 @@ part2_nlp_basics/rnns.md
 ```
 
 ```{toctree}
-:caption: 第三部分：Transformer
+:caption: 第三部分：深度学习架构与核心技术
 :maxdepth: 2
 
-part3_transformer/transformer_architecture.md
-part3_transformer/transformer_training_example.md
-part3_transformer/transformer_inference_example.md
+part3_deep_learning_core/model_training_details.md
+part3_deep_learning_core/cnn.md
 ```
 
 ```{toctree}
-:caption: 第四部分：预训练语言模型
+:caption: 第四部分：Transformer
 :maxdepth: 2
 
-part4_pretraining/llm_ecosystem_overview.md
-part4_pretraining/pretrain_finetune.md
-part4_pretraining/gpt.md
-part4_pretraining/bert.md
-part4_pretraining/other_llm_families.md
+part4_transformer/transformer_architecture.md
+part4_transformer/transformer_training_example.md
+part4_transformer/transformer_inference_example.md
 ```
 
 ```{toctree}
-:caption: 第五部分：现代大语言模型
+:caption: 第五部分：预训练语言模型
 :maxdepth: 2
 
-part5_modern_llms/prompt_engineering.md
-part5_modern_llms/instruction_tuning_rlhf.md
-part5_modern_llms/rag.md
-part5_modern_llms/moe.md
-part5_modern_llms/ai_agents.md
-part5_modern_llms/evaluation.md
-part5_modern_llms/quantization_and_inference.md
-part5_modern_llms/multimodality.md
-part5_modern_llms/ssm.md
+part5_pretraining/llm_ecosystem_overview.md
+part5_pretraining/pretrain_finetune.md
+part5_pretraining/gpt.md
+part5_pretraining/bert.md
+part5_pretraining/other_llm_families.md
+```
+
+```{toctree}
+:caption: 第六部分：现代大语言模型
+:maxdepth: 2
+
+part6_modern_llms/prompt_engineering.md
+part6_modern_llms/instruction_tuning_rlhf.md
+part6_modern_llms/rag.md
+part6_modern_llms/moe.md
+part6_modern_llms/ai_agents.md
+part6_modern_llms/evaluation.md
+part6_modern_llms/quantization_and_inference.md
+part6_modern_llms/multimodality.md
+part6_modern_llms/ssm.md
 ```
 
 ```{toctree}
