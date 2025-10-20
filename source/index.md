@@ -1,24 +1,17 @@
 # LLM-Learn
 
 ```{toctree}
-:caption: 概述
+:caption: 第一部分：神经网络
 :maxdepth: 2
 
-part0_overview/introduction.md
-part0_overview/basic_concepts.md
+part_basics/introduction.md
+part_basics/neural_networks.md
+part_basics/model_training.md
+part_basics/learning_types.md
 ```
 
 ```{toctree}
-:caption: 第一部分：神经网络基础概念
-:maxdepth: 2
-
-part1_foundations/neural_networks.md
-part1_foundations/model_training.md
-part1_foundations/model_inference.md
-```
-
-```{toctree}
-:caption: 第二部分：自然语言处理 (NLP) 基础
+:caption: 第二部分：自然语言处理 (NLP)
 :maxdepth: 2
 
 part2_nlp_basics/text_preprocessing.md
