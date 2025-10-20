@@ -14,10 +14,7 @@ part_basics/learning_types.md
 :caption: 第二部分：自然语言处理 (NLP)
 :maxdepth: 2
 
-part2_nlp_basics/text_preprocessing.md
-part2_nlp_basics/traditional_text_representation.md
-part2_nlp_basics/basic_nlp_tasks.md
-part2_nlp_basics/embeddings.md
+part2_nlp_basics/nlp_foundations.md
 part2_nlp_basics/rnns.md
 ```
 
