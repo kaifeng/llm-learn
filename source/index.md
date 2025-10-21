@@ -66,12 +66,12 @@ part6_modern_llms/ssm.md
 :caption: 附录
 :maxdepth: 2
 
-appendix/terms.md
-appendix/math.md
-appendix/frameworks.md
-appendix/pytorch.md
-appendix/matplotlib.ipynb
 appendix/app.md
+appendix/frameworks.md
+appendix/math.md
+appendix/matplotlib.ipynb
+appendix/pytorch.md
 appendix/papers.md
 appendix/links.md
+appendix/glossary.rst
 ```
