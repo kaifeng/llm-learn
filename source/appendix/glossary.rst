@@ -5,6 +5,9 @@
 
 .. glossary::
 
+    MLP
+        Multi-Layer Perceptron，多层感知机。
+
     生成式AI（Generative AI）
         机器产生复杂有结构的物件，尽乎无法穷举。如文章、图像、语音等。不是生成式AI：分类（如垃圾邮件分类、猫狗分类）。
 
