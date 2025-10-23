@@ -7,8 +7,6 @@
 part_basics/introduction.md
 part_basics/neural_networks.md
 part_basics/model_training.md
-part_basics/learning_types.md
-part_basics/model_training_details.md
 ```
 
 ```{toctree}
