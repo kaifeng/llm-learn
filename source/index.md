@@ -57,6 +57,7 @@ part_modern_llms/evaluation.md
 part_modern_llms/quantization_and_inference.md
 part_modern_llms/multimodality.md
 part_modern_llms/ssm.md
+part_modern_llms/stack.md
 ```
 
 ```{toctree}
