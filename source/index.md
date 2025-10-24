@@ -6,7 +6,7 @@
 
 part_basics/introduction.md
 part_basics/neural_networks.md
-part_basics/model_training.md
+part_basics/training/index.md
 ```
 
 ```{toctree}
