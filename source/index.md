@@ -5,7 +5,6 @@
 :maxdepth: 2
 
 part_basics/introduction.md
-part_basics/linear_regression/index.md
 part_basics/neural_networks.md
 part_basics/training/index.md
 ```
