@@ -46,9 +46,9 @@ Hello! How can I assist you today?
 >>> Send a message (/? for help)
 ```
 
-## AI 绘画：Stable Diffusion 与 ComfyUI
+## AI 绘画
 
-### Stable Diffusion 模型
+### Stable Diffusion
 
 Stable Diffusion 是一个于 2022 年发布的、强大的文生图（Text-to-Image）AI 模型。它属于**潜在扩散模型（Latent Diffusion Model）** 的一种，其核心工作原理是在一个低维的潜在空间中对数据进行“加噪”和“去噪”处理，最终根据文本提示（Prompt）生成全新的、符合描述的图像。
 
@@ -58,7 +58,7 @@ Stable Diffusion 是一个于 2022 年发布的、强大的文生图（Text-to-I
 > 项目路径：https://github.com/AUTOMATIC1111/stable-diffusion-webui.git
 
 
-### ComfyUI：节点式工作流工具
+### ComfyUI
 
 ComfyUI 是一个为 Stable Diffusion 设计的、功能强大且高度模块化的图形用户界面。它最大的特点是其**基于节点（Node-based）的流程图式界面**。
 
@@ -67,3 +67,5 @@ ComfyUI 是一个为 Stable Diffusion 设计的、功能强大且高度模块化
 - **精准控制流程**：清晰地看到数据（如模型、文本、图像）在每一步如何被处理。
 - **构建复杂工作流**：轻松实现如图生图（Image-to-Image）、图像修复（Inpainting）、高清放大（Upscaling）等高级功能。
 - **分享与复现**：整个工作流可以被保存为文件或图片，方便地与他人分享和复现，极大地促进了技巧的传播。
+
+官方地址 https://www.comfy.org/，为Apple Silicon提供了独立App。
