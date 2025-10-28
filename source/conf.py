@@ -38,6 +38,10 @@ myst_heading_anchors = 3  # Auto-generate header anchors up to level 3
 
 html_theme = 'sphinx_book_theme'
 html_static_path = ['_static']
+html_css_files = [
+    'custom.css',
+]
+
 html_title = "LLM-Learn"
 
 html_theme_options = {
