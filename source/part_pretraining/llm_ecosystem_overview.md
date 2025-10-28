@@ -88,3 +88,65 @@ LLM 的开发和应用涉及多个连续的阶段：
 -   **闭源模型**：模型权重和架构不公开，通过 API 提供服务。如 OpenAI GPT 系列、Anthropic Claude 系列。
 -   **开放权重模型**：模型权重公开，但可能附带使用许可限制。如 Llama 系列、Mistral 系列、Gemma。
 -   **开源模型**：模型权重、代码和数据均公开，通常遵循宽松的开源许可。一般是一些较小的研究模型或社区驱动项目。
+
+## Hugging Face上的常见模型类型
+
+Hugging Face模型库中有数万个模型，它们可以根据其设计和应用场景分为几个主要类别。以下是一些常见的模型类型及其主要应用：
+
+### 1. 自然语言处理 (NLP)
+
+这是Hugging Face上最庞大、最成熟的模型类别。
+
+-   **文本分类 (Text Classification)**:
+    -   **应用**: 情感分析、主题识别、垃圾邮件检测。
+    -   **常见模型**: `BERT`, `RoBERTa`, `DistilBERT`。
+-   **命名实体识别 (Token Classification / NER)**:
+    -   **应用**: 从文本中识别人名、地名、组织机构等特定实体。
+    -   **常见模型**: `BERT`, `ELECTRA`。
+-   **问答 (Question Answering)**:
+    -   **应用**: 根据给定的上下文回答问题（抽取式问答），或直接生成答案（生成式问答）。
+    -   **常见模型**: `BERT`, `DistilBERT` (抽取式), `T5`, `BART` (生成式)。
+-   **文本生成 (Text Generation)**:
+    -   **应用**: 续写文本、创作故事、生成代码。
+    -   **常见模型**: `GPT-2`, `BLOOM`, `Llama`。
+-   **摘要 (Summarization)**:
+    -   **应用**: 将长篇文章缩减为简短的摘要。
+    -   **常见模型**: `BART`, `T5`, `Pegasus`。
+-   **翻译 (Translation)**:
+    -   **应用**: 将文本从一种语言翻译成另一种语言。
+    -   **常见模型**: `T5`, `MarianMT`, `M2M100`。
+-   **特征提取 (Feature Extraction)**:
+    -   **应用**: 将文本转换为固定大小的向量（嵌入），用于语义搜索、聚类等下游任务。
+    -   **常见模型**: `BERT`, `RoBERTa`, `Sentence-Transformers`。
+
+### 2. 计算机视觉 (Computer Vision)
+
+-   **图像分类 (Image Classification)**:
+    -   **应用**: 识别图像中的主要物体（例如，猫、狗、汽车）。
+    -   **常见模型**: `ViT` (Vision Transformer), `ResNet`, `Swin Transformer`。
+-   **目标检测 (Object Detection)**:
+    -   **应用**: 在图像中定位多个物体并识别其类别。
+    -   **常见模型**: `YOLOS`, `DETR`。
+-   **图像分割 (Image Segmentation)**:
+    -   **应用**: 对图像中的每个像素进行分类，以区分不同的物体和背景。
+    -   **常见模型**: `SegFormer`, `Mask2Former`。
+
+### 3. 音频处理 (Audio)
+
+-   **音频分类 (Audio Classification)**:
+    -   **应用**: 识别音频中的声音事件（如掌声、警报声）或关键词。
+    -   **常见模型**: `Wav2Vec2`, `HuBERT`。
+-   **自动语音识别 (Automatic Speech Recognition, ASR)**:
+    -   **应用**: 将语音转换为文字。
+    -   **常见模型**: `Whisper`, `Wav2Vec2`。
+
+### 4. 多模态 (Multimodal)
+
+这类模型能够同时处理多种信息模态（如文本和图像）。
+
+-   **图文问答 (Visual Question Answering, VQA)**:
+    -   **应用**: 根据图像内容回答相关问题。
+    -   **常见模型**: `ViLT`, `BLIP`。
+-   **图像描述生成 (Image Captioning)**:
+    -   **应用**: 为图像生成描述性文字。
+    -   **常见模型**: `BLIP`, `GIT`。
