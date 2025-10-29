@@ -38,7 +38,6 @@ part_transformer/transformer_inference_example.md
 :maxdepth: 2
 
 part_pretraining/llm_ecosystem_overview.md
-part_pretraining/pretrain_finetune.md
 part_pretraining/gpt.md
 part_pretraining/bert.md
 ```
