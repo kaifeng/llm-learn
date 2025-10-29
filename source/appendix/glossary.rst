@@ -124,3 +124,9 @@
 
     BART
         Bidirectional and Auto-Regressive Transformers，一种结合了 BERT 和 GPT 优点的序列到序列预训练模型。BART 通过编码器-解码器架构，能够高效地处理文本生成和理解任务。
+
+    Batch Normalization (BN)
+        一种在神经网络训练中用于加速收敛、稳定训练过程的技术。它对一个 mini-batch 内的所有样本，在每一个特征维度上进行归一化，使其均值为0，方差为1。这种方法严重依赖于 batch size，在 batch 较小时效果不佳，且在训练和推理时行为不一致，因此在 Transformer 模型中较少使用。
+
+    Layer Normalization (LN)
+        另一种归一化技术，与 Batch Normalization 的主要区别在于它的归一化维度。它对单个样本的所有特征（即一个层的所有神经元）进行归一化。这种方式与 batch size 无关，在训练和推理时行为一致，因此特别适用于处理变长序列的 RNN 和 Transformer 模型。
