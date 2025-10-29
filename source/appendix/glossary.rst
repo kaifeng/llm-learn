@@ -97,3 +97,30 @@
 
     Hugging Face
         一个专注于NLP和机器学习的社区和公司。它提供了著名的 `transformers` 开源库，其中包含大量预训练模型。Hugging Face Hub 也是一个模型、数据集和机器学习应用的共享平台。
+
+    ASR
+        Automatic Speech Recognition，自动语音识别。将语音信号转换为对应的文本内容的技术。Wav2Vec2 是一种流行的 ASR 模型架构。
+
+    ViT
+        Vision Transformer，一种将 Transformer 架构应用于计算机视觉任务的模型。ViT 将图像划分为固定大小的补丁（patches），并将这些补丁视为序列输入到 Transformer 中进行处理。ViT 在图像分类等任务上表现出色，
+
+    ConvNeXT
+        ConvNeXT 是一种现代卷积神经网络架构，结合了传统卷积网络和 Transformer 的优点。它通过引入更深的网络层次结构和改进的训练技术，实现了在图像分类任务上的卓越性能。
+
+    DETR
+        Detection Transformer，一种基于 Transformer 的目标检测模型。DETR 通过将目标检测任务转化为一个序列到序列的预测问题，利用 Transformer 的自注意力机制来捕捉图像中的全局上下文信息，从而实现高效的目标检测。
+
+    Mask2Former
+        Mask2Former 是一种用于图像分割任务的先进模型。它结合了掩码预测和 Transformer 架构，能够同时处理语义分割、实例分割和全景分割任务。Mask2Former 利用多尺度特征融合和自注意力机制，实现了对复杂场景中对象的精确分割。
+
+    GLPN
+        GLPN (Global-Local Path Network) 是一种用于深度估计的神经网络架构。它结合了全局和局部信息，通过多路径设计来捕捉图像中的细节和整体结构，从而实现高精度的深度预测。
+
+    BERT
+        Bidirectional Encoder Representations from Transformers，一种基于 Transformer 编码器的预训练语言模型。BERT 通过双向上下文学习，能够更好地理解词语在句子中的含义，在各种 NLP 任务中表现出色。
+
+    GPT
+        Generative Pre-trained Transformer，一种基于 Transformer 解码器的生成式语言模型。
+
+    BART
+        Bidirectional and Auto-Regressive Transformers，一种结合了 BERT 和 GPT 优点的序列到序列预训练模型。BART 通过编码器-解码器架构，能够高效地处理文本生成和理解任务。
