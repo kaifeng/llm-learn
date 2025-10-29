@@ -41,7 +41,6 @@ part_pretraining/llm_ecosystem_overview.md
 part_pretraining/pretrain_finetune.md
 part_pretraining/gpt.md
 part_pretraining/bert.md
-part_pretraining/other_llm_families.md
 ```
 
 ```{toctree}

@@ -19,7 +19,7 @@ PyTorch 官方的计算机视觉库，它提供了一套基础全面的工具，
 
 ## timm (PyTorch Image Models)
 
-`timm` 的核心优势是提供了海量的、紧跟研究前沿的 SOTA 图像模型。
+`timm` 的核心优势是提供了海量的、紧跟研究前沿的SOTA 图像模型。
 
 ## diffusers
 
@@ -28,3 +28,10 @@ PyTorch 官方的计算机视觉库，它提供了一套基础全面的工具，
 ## PEFT (Parameter-Efficient Fine-Tuning)
 
 由 Hugging Face 开发，专门用于高效微调大模型。它将 LoRA, QLoRA 等参数高效微调技术封装成简单接口，使在消费级硬件上微调巨型模型成为可能，通常与 `transformers` 库配合使用。
+
+## 支撑 LLM 开发和应用的软件生态系统
+
+-   **深度学习框架**：用于构建和训练神经网络。如 PyTorch, TensorFlow。
+-   **高效推理框架**：优化 LLM 在生产环境中的推理速度和资源消耗。如 vLLM, TensorRT-LLM。
+-   **统一算子框架**：用于编写高性能的自定义 GPU 算子。如 Triton。
+-   **Agent 框架**：用于构建能够自主规划、工具使用和多步推理的 LLM 智能体。如 LangChain, LlamaIndex, AutoGen。
