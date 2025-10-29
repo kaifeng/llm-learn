@@ -37,7 +37,7 @@ part_transformer/transformer_inference_example.md
 :caption: 预训练语言模型
 :maxdepth: 2
 
-part_pretraining/llm_ecosystem_overview.md
+part_pretraining/pretrain_models.md
 part_pretraining/gpt.md
 part_pretraining/bert.md
 ```
@@ -61,8 +61,7 @@ part_modern_llms/stack.md
 ```{toctree}
 :caption: 附录
 :maxdepth: 2
-
-appendix/app.md
+applications/index.md
 appendix/frameworks.md
 appendix/math.md
 appendix/matplotlib.ipynb
