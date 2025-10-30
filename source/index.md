@@ -34,18 +34,12 @@ part_transformer/transformer_inference_example.md
 ```
 
 ```{toctree}
-:caption: 预训练语言模型
+:caption: 现代大语言模型
 :maxdepth: 2
 
 part_pretraining/pretrain_models.md
 part_pretraining/gpt.md
 part_pretraining/bert.md
-```
-
-```{toctree}
-:caption: 现代大语言模型
-:maxdepth: 2
-
 part_modern_llms/prompt_engineering.md
 part_modern_llms/instruction_tuning_rlhf.md
 part_modern_llms/rag.md
