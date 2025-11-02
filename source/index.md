@@ -46,7 +46,6 @@ part_modern_llms/rag.md
 part_modern_llms/moe.md
 part_modern_llms/evaluation.md
 part_modern_llms/quantization_and_inference.md
-part_modern_llms/multimodality.md
 part_modern_llms/stack.md
 ```
 
