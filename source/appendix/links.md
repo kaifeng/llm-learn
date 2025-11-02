@@ -65,3 +65,5 @@ https://www.youtube.com/watch?v=EhndHhIvWWw
 最后对比了扩散模型与VAE的生成质量差异，并预告了更高效的后续改进方法。
 
 大模型相关技术原理以及实战经验 https://github.com/liguodongiot/llm-action
+
+[spec-kit](https://github.com/github/spec-kit)，一个为 AI 驱动、规范驱动的开发而设计的开源工具包。它提供了一套用于定义、管理和执行开发任务规范的工具集，通过将开发流程分为规范、计划、任务和实施四个阶段，旨在帮助 AI Agent 更可靠、更准确地完成复杂工作。

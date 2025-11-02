@@ -44,7 +44,6 @@ part_modern_llms/prompt_engineering.md
 part_modern_llms/instruction_tuning_rlhf.md
 part_modern_llms/rag.md
 part_modern_llms/moe.md
-part_modern_llms/ai_agents.md
 part_modern_llms/evaluation.md
 part_modern_llms/quantization_and_inference.md
 part_modern_llms/multimodality.md
