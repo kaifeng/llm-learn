@@ -36,6 +36,8 @@
 
 HuggingFace的LLM教程 https://huggingface.co/learn/llm-course
 
+HuggingFace的AI CookKBook https://huggingface.co/learn/cookbook/en/index
+
 从头构建llama3模型 https://github.com/naklecha/llama3-from-scratch
 
 Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.
