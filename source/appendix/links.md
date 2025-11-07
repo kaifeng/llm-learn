@@ -36,7 +36,7 @@
 
 HuggingFace的LLM教程 https://huggingface.co/learn/llm-course
 
-HuggingFace的AI CookKBook https://huggingface.co/learn/cookbook/en/index
+HuggingFace的AI CookBook https://huggingface.co/learn/cookbook/en/index
 
 从头构建llama3模型 https://github.com/naklecha/llama3-from-scratch
 
